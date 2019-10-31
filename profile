@@ -20,7 +20,7 @@ export PATH=$HOME/.rbenv/bin:$HOME/bin:$PATH
 
 # bash completion under osx
 if [ "$(uname)" == "Darwin" ]; then
-  export PATH=$HOME/homebrew/bin:$HOME/homebrew/opt/node@8/bin:$HOME/homebrew/opt/coreutils/bin:$HOME/homebrew/opt/findutils/libexec/gnubin:$PATH
+  export PATH=$HOME/homebrew/bin:$HOME/homebrew/opt/node@8/bin:$HOME/homebrew/opt/gnupg@1.4/libexec/gpgbin:$HOME/homebrew/opt/coreutils/bin:$HOME/homebrew/opt/findutils/libexec/gnubin:$PATH
   export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
   if [ -f $(brew --prefix)/etc/profile.d/bash-completion.sh ]; then
     . $(brew --prefix)/etc/profile.d/bash_completion.sh
