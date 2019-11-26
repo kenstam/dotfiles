@@ -4,7 +4,6 @@
 brew update
 
 # Upgrade any already-brew installed formulae
-brew update
 brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
@@ -13,10 +12,9 @@ brew install coreutils
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 brew install gawk
-brew install grep --with-default-names
+brew install grep
 brew install bash
 brew install bash-completion2
 brew install htop
