@@ -1,6 +1,10 @@
+# Config
 cask_args appdir: '~/Applications'
-# packages
-tap 'caskroom/homebrew-cask' || true
+
+# Taps
+tap 'homebrew/cask'
+
+# Packages
 brew 'git'
 brew 'bash-completion'
 brew 'coreutils'
@@ -22,3 +26,10 @@ brew 'ag'
 # Casks
 cask 'iterm2'
 cask 'atom'
+cask 'cyberduck'
+cask 'macdown'
+cask 'mysqlworkbench'
+cask 'postman'
+cask 'skim'
+cask 'sequel-pro'
+cask 'visual-studio-code'
