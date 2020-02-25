@@ -14,3 +14,6 @@
 
     ln -s .profile .bash_profile
     ln -s .profile .bashrc
+
+## Brew
+    `brew bundle`
