@@ -1,3 +1,5 @@
+# Usage:   brew bundle
+
 # Config
 cask_args appdir: '~/Applications'
 
@@ -22,6 +24,9 @@ brew 'ssh-copy-id'
 brew 'unison'
 brew 'pv'
 brew 'ag'
+brew 'ansible'
+brew 'packer'
+brew 'terraform'
 
 # Casks
 cask 'iterm2'
@@ -33,3 +38,8 @@ cask 'postman'
 cask 'skim'
 cask 'sequel-pro'
 cask 'visual-studio-code'
+cask 'vagrant'
+
+# completion
+brew 'packer-completion'
+brew 'vagrant-completion'
