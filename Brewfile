@@ -26,8 +26,11 @@ brew 'ansible'
 brew 'packer'
 brew 'terraform'
 brew 'tmux'
+brew 'awscli'
 
 # Casks
+cask 'firefox'
+cask 'chromium'
 cask 'iterm2'
 cask 'atom'
 cask 'cyberduck'
