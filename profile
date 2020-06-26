@@ -17,7 +17,7 @@ WHITE='\e[0;37m'        # White
 source ~/.git-prompt
 source ~/.git-completion
 export PS1="\[$CYAN\]\h \[$GREEN\]\t\[$YELLOW\]\w\[\033[m\]\[$RED\]\$(__git_ps1)\[$WHITE\]\$ "
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/.rbenv/bin:$HOME/bin:$PATH
 
 # bash completion under osx
 if [ "$(uname)" == "Darwin" ]; then
@@ -31,9 +31,8 @@ fi
 
 export EDITOR=vim
 set -o vi
-if which rbenv > /dev/null 2>&1; then 
+if which rbenv > /dev/null 2>&1; then
   eval "$(rbenv init -)"
-  export PATH=$HOME/.rbenv/bin:$PATH
 fi
 
 if which mvn > /dev/null 2>&1; then
