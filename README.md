@@ -2,7 +2,7 @@
 
 ## Install
     cd ~
-    rm .bashrc .bash_aliases .bash_profile .profile .gitconfig .gitignore .git-prompt .vimrc
+    rm .bashrc .bash_aliases .bash_profile .profile .gitconfig .gitignore .git-prompt .git-completion .vimrc
 
     ln -s dotfiles/bash_aliases .bash_aliases
     ln -s dotfiles/profile .profile
