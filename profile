@@ -1,7 +1,8 @@
 export LSCOLORS="gxfxcxdxbxegedabagacad"
 export ARCHFLAGS="-arch x86_64"
-export M2_HOME="~/apache-maven-3.6.3"
+export M2_HOME="$HOME/apache-maven-3.6.3"
 export NVM_DIR="$HOME/.nvm"
+export RBENV_DIR="$HOME/.rbenv"
 
 # Colours
 BLACK='\e[0;30m'        # Black
@@ -17,7 +18,6 @@ WHITE='\e[0;37m'        # White
 source ~/.git-prompt
 source ~/.git-completion
 export PS1="\[$CYAN\]\h \[$GREEN\]\t\[$YELLOW\]\w\[\033[m\]\[$RED\]\$(__git_ps1)\[$WHITE\]\$ "
-export PATH=$HOME/.rbenv/bin:$HOME/bin:$M2_HOME/bin:$PATH
 
 # bash completion under osx
 if [ "$(uname)" == "Darwin" ]; then
@@ -31,8 +31,9 @@ fi
 
 export EDITOR=vim
 set -o vi
-[ -s ~/.rbenv/bin/rbenv ] && eval "$(rbenv init -)"
+[ -s "$M2_HOME/bin/mvn" ] && export PATH=$M2_HOME/bin:$PATH
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+[ -s "$RBENV_DIR/bin/rbenv" ] && export PATH=$RBENV_DIR/bin:$PATH && eval "$(rbenv init -)"
 
 . ~/.bash_aliases
