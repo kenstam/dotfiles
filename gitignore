@@ -32,4 +32,4 @@
 .rnd
 .subversion
 .rbenv
-vendor/bundle
+.tool-versions
