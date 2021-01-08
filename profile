@@ -1,4 +1,5 @@
 export LSCOLORS="gxfxcxdxbxegedabagacad"
+export TMP_DIR="/tmp"
 export ARCHFLAGS="-arch x86_64"
 export M2_HOME="$HOME/apache-maven-3.6.3"
 export NVM_DIR="$HOME/.nvm"
