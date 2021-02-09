@@ -24,7 +24,7 @@ brew 'pv'
 brew 'ag'
 brew 'ansible'
 brew 'packer'
-brew 'terraform@0.13'
+#brew 'terraform' # we are locked to a version, get it from web
 brew 'tmux'
 brew 'awscli'
 brew 'geckodriver'
