@@ -41,7 +41,7 @@ cask 'iterm2'
 cask 'atom'
 cask 'cyberduck'
 cask 'macdown'
-cask 'mysqlworkbench'
+#cask 'mysqlworkbench' # Catalina does not approve
 cask 'postman'
 cask 'skim'
 cask 'sequel-pro'
@@ -53,6 +53,7 @@ cask 'vagrant'
 cask 'tunnelblick'
 cask 'psequel'
 cask 'amazon-workspaces'
+cask 'meld'
 
 # completion
 brew 'bash-completion@2'
