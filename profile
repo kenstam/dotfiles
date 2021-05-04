@@ -32,7 +32,7 @@ set -o vi
 
 # bash completion under osx
 if [ "$(uname)" == "Darwin" ]; then
-  export PATH=$HOME/homebrew/bin:$HOME/homebrew/opt/mysql@5.6/bin:$HOME/homebrew/opt/postgresql@11/bin:$HOME/homebrew/opt/coreutils/bin:$HOME/homebrew/opt/findutils/libexec/gnubin:$PATH
+  export PATH=$HOME/homebrew/bin:$HOME/homebrew/opt/ansible@2.9/bin:$HOME/homebrew/opt/mysql@5.6/bin:$HOME/homebrew/opt/postgresql@11/bin:$HOME/homebrew/opt/coreutils/bin:$HOME/homebrew/opt/findutils/libexec/gnubin:$PATH
   export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:~/homebrew/lib/pkgconfig
   export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
   if [ -f $(brew --prefix)/etc/profile.d/bash_completion.sh ]; then

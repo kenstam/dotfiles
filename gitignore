@@ -33,4 +33,3 @@
 .subversion
 .rbenv
 .tool-versions
-*secrets*
