@@ -34,7 +34,7 @@ brew 'the_silver_searcher'
 brew 'act'
 brew 'docker-clean'
 brew 'gnupg@1.4'
-brwe 'gnupg'
+brew 'gnupg'
 brew 'shared-mime-info'
 
 # Casks
